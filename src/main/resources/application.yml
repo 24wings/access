@@ -1,0 +1,11 @@
+server:
+  port: 8762
+
+spring:
+  application:
+    name: access
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://47.105.77.239:8761/eureka/
